@@ -1,5 +1,5 @@
-/*KERMIT
-var player;*/
+/*KERMIT*/
+var playerVar;
 $(document).ready(function() {
 $(".title").lettering();
 $(".button").lettering();
@@ -11,7 +11,8 @@ animation();
 
 $('.button').click(function() {
 animation();
-/*player = document.getElementById("playerName").value;*/
+playerVar = document.getElementById("playerName").value;
+localStorage.setItem("player", playerVar);
 });
 
 function animation() {
