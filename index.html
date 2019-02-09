@@ -4,6 +4,21 @@
 <head>
 	<title>KERMIT</title>
 	<link rel="stylesheet" href="styles/90sStyle.css">
+	<script type="text/javascript">
+		function playSound(tag_id)
+		{
+			let sound = document.getElementById(tag_id);
+			sound.currentTime = 0;
+			sound.play();
+		}
+
+		function stopSound(tag_id)
+		{
+			let sound = document.getElementById(tag_id);
+			sound.pause();
+			sound.currentTime = 0;
+		}
+	</script>
 	<audio id='music'>
 		<script type="text/javascript">
 			let music = document.getElementById("music");
@@ -11,6 +26,13 @@
 			music.loop = true;
 			music.currentTime = 0;
 			music.play();
+		</script>
+	</audio>
+	<audio id='sfx'>
+		<script type="text/javascript">
+			let sfx = document.getElementById('sfx');
+			sfx.src = 'resources/audio/option_select_sfx.wav';
+			sfx.currentTime = 0;
 		</script>
 	</audio>
 </head>

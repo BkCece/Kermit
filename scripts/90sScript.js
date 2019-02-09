@@ -11,6 +11,13 @@ $(document).ready(function() {
 		animation();
 		}, 1000);
 
+<<<<<<< HEAD
+$('.button').click(function() {
+animation();
+console.log("click");
+sound = document.getElementById('sfx');
+sound.play();
+=======
 		$('.start').click(function() {
 		playerVar= document.getElementById("playerName").value;
 		localStorage.setItem("player", playerVar);
@@ -23,6 +30,7 @@ $(document).ready(function() {
 
 		$('.button').click(function() {
 		animation();
+>>>>>>> 1f96145ab8bf4760ff3499902b1b52f57765c22a
 /*player = document.getElementById("playerName").value;*/
 });
 
