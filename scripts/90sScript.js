@@ -2,30 +2,31 @@
 var playerVar;
 
 $(document).ready(function() {
-		$(".title").lettering();
-		$(".text").lettering();
-		$(".start").lettering();
-		});
+	$(".title").lettering();
+	$(".text").lettering();
+	$(".start").lettering();
+});
 
-		$(document).ready(function() {
-		animation();
-		}, 1000);
+$(document).ready(function() {
+	animation();
+}, 1000);
 
-	$('.button').click(function() {
+$('.button').click(function() {
 	animation();
 	console.log("click");
 	sound = document.getElementById('sfx');
 	sound.play();
-	});
-		$('.start').click(function() {
-		playerVar= document.getElementById("playerName").value;
-		localStorage.setItem("player", playerVar);
-		removeElement("beginning");
-		addElement("bulk", "span", "text", new paragraph(0).text);
-		$(".text").lettering();
-		animationText();
-		console.log(localStorage.getItem("player"));
-		});
+});
+	
+$('.start').click(function() {
+	playerVar= document.getElementById("playerName").value;
+	localStorage.setItem("player", playerVar);
+	removeElement("beginning");
+	addElement("bulk", "span", "text", new paragraph(0).text);
+	$(".text").lettering();
+	animationText();
+	console.log(localStorage.getItem("player"));
+});
 		
 /*player = document.getElementById("playerName").value;*/
 
