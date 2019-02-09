@@ -1,21 +1,29 @@
-var Music = function() 
+
+var Music = new function() 
 {
 	this.queue = []
 	this.isPlaying = false;
+	this.audio = document.getElementById('Music');
 	
 	this.queueAudio = function(file)
 	{
-		var music = new Audio('resources/audio/'.concat(file));
+		var music = '../resources/audio/'.concat(file);
+		music = 'resources/audio/rickroll.mp3';
 		this.queue.push(music);
+		console.log("here");
 	}
 	
 	this.startAudio = function(index = 0)
 	{
-		if (this.queue.length > 0)
+		if (this.queue.length > 0) {
 			var music = this.queue[index];
-			music.currentTime = 0;
-			music.play();
+			document.getElementById("file").src = music;
+			console.log("here");
+			console.log(document.getElementById("file"));
+			this.audio.currentTime = 0;
+			this.audio.play();
 			this.isPlaying = true;
+		}
 	}
 	
 	this.togglePauseAudio = function()
@@ -23,22 +31,21 @@ var Music = function()
 		var music = this.queue[0];
 		if (this.isPlaying)
 		{
-			music.pause();
+			this.audio.pause();
 			this.isPlaying = false;
 		}
 		else
 		{
-			music.play();
+			this.audio.play();
 			this.isPlaying = true;
 		}
-	
 	}
 	
 	this.stopCurrentAudio = function()
 	{
-		var music = this.queue.shift();
-		music.pause()
-		music.currentTime = 0;
+		var music = this.queue[0];
+		this.audio.pause()
+		this.audio.currentTime = 0;
 		this.isPlaying = false;
 	}
 }
