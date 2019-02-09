@@ -2,18 +2,24 @@
 	<head>
 		<meta charset="utf-8">
 		<title>testing</title>
-		<script src = "scripts/music.js"></script>
+
 	</head>
 	<body>
 		<audio id='Music'>
 			<source id='file' src="resources/audio/rickroll.mp3">
-			
+			<script type="text/javascript">
+				let audio = document.getElementById('Music');
+				let source = document.getElementById('file');
+				source.src = 'resources/audio/calm_intro.wav';
+				audio.play();
+			</script>
+			<!--
 			<script type='text/javascript'>
 				var music = new Music();
 				music.queueAudio('rickroll.mp3');
 				music.startAudio();
 			</script>
-
+			-->
 		</audio>
 		
 	</body>
