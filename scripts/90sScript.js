@@ -1,5 +1,6 @@
 
 var playerVar;
+
 $(document).ready(function() {
 		$(".title").lettering();
 		$(".text").lettering();
@@ -10,6 +11,14 @@ $(document).ready(function() {
 		animation();
 		}, 1000);
 
+
+	$('.button').click(function() {
+	animation();
+	console.log("click");
+	sound = document.getElementById('sfx');
+	sound.play();
+	});
+	
 		$('.start').click(function() {
 		playerVar= document.getElementById("playerName").value;
 		localStorage.setItem("player", playerVar);
@@ -18,16 +27,9 @@ $(document).ready(function() {
 		$(".text").lettering();
 		animationText();
 		console.log(localStorage.getItem("player"));
-		document.getElementById('sfx').play();
+
 		});
-
-		$('.button').click(function() {
-		animation();
-		let sound = document.getElementById('sfx');
-		sound.play();
-
 /*player = document.getElementById("playerName").value;*/
-});
 
 function animation() {
 	var title1 = new TimelineMax();
