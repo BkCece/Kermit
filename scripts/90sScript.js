@@ -1,5 +1,6 @@
 
 var playerVar;
+
 $(document).ready(function() {
 		$(".title").lettering();
 		$(".text").lettering();
@@ -17,7 +18,7 @@ $(document).ready(function() {
 		addElement("bulk", "span", "text", new paragraph(0).text);
 		$(".text").lettering();
 		animationText();
-		console.log(localStorage.getItem("player"))
+		console.log(localStorage.getItem("player"));
 		});
 
 		$('.button').click(function() {
