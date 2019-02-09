@@ -4,6 +4,15 @@
 <head>
 	<title>KERMIT</title>
 	<link rel="stylesheet" href="styles/90sStyle.css">
+	<audio id='music'>
+		<script type="text/javascript">
+			let music = document.getElementById("music");
+			music.src = 'resources/audio/calm_intro.wav';
+			music.loop = true;
+			music.currentTime = 0;
+			music.play();
+		</script>
+	</audio>
 </head>
 
 <body>
@@ -14,6 +23,7 @@
 			<span id="t" class="title">Can I &nbsp;</span>
 			<span id="t" class="title">Call You?</span>
 		</h1>
+<<<<<<< HEAD
         <br>
 		<div id="b" class="start">
 			Start!
@@ -26,6 +36,14 @@
     </section>
 
     <script src="scripts/funcs.js"></script>
+=======
+		<br>
+		<label for="playerName" class="playerName">
+			<input type="text" id="playerName" placeholder="&nbsp;">
+		</label>
+		<a href="treeSing.html"><div class="button">Start!</div></a>
+	</section>
+>>>>>>> 11e1901a10505cd88f7f845b0b72f5c6a3600a13
 	<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>

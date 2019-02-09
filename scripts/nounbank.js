@@ -5,5 +5,26 @@ var nouns = [
     },
     {
         "noun": "cats"
+    },
+    {
+    	"noun": "essays"
+    },
+    {
+    	"noun": "hurdler"
+    },
+    {
+    	"noun": "motorboats"
+    },
+    {
+    	"noun": "pigs"
+    },
+    {
+    	"noun": "porcupines"
+    },
+    {
+    	"noun": "visions"
+    },
+    {
+    	"noun": "webs"
     }
 ]

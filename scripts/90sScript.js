@@ -1,4 +1,7 @@
+/*KERMIT
+var player;*/
 $(document).ready(function() {
+<<<<<<< HEAD
 		$(".title").lettering();
 		$(".text").lettering();
 		$(".start").lettering();
@@ -14,7 +17,20 @@ $(document).ready(function() {
 		$(".text").lettering();
 		animationText();
 		});
+=======
+$(".title").lettering();
+$(".button").lettering();
+});
 
+$(document).ready(function() {
+animation();
+}, 1000);
+>>>>>>> 11e1901a10505cd88f7f845b0b72f5c6a3600a13
+
+$('.button').click(function() {
+animation();
+/*player = document.getElementById("playerName").value;*/
+});
 
 function animation() {
 	var title1 = new TimelineMax();
@@ -35,5 +51,9 @@ function animationText() {
 	{ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.05);
 	console.log("hello");
 }
+<<<<<<< HEAD
 
       //# sourceURL=pen.js
+=======
+//# sourceURL=pen.js
+>>>>>>> 11e1901a10505cd88f7f845b0b72f5c6a3600a13
