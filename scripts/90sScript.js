@@ -11,6 +11,9 @@ animation();
 
 $('.button').click(function() {
 animation();
+console.log("click");
+sound = document.getElementById('sfx');
+sound.play();
 /*player = document.getElementById("playerName").value;*/
 });
 
