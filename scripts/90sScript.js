@@ -1,28 +1,54 @@
-/*KERMIT
-var player;*/
-$(document).ready(function() {
-$(".title").lettering();
-$(".button").lettering();
-});
 
+var playerVar;
 $(document).ready(function() {
-animation();
-}, 1000);
+		$(".title").lettering();
+		$(".text").lettering();
+		$(".start").lettering();
+		});
 
+		$(document).ready(function() {
+		animation();
+		}, 1000);
+
+<<<<<<< HEAD
 $('.button').click(function() {
 animation();
 console.log("click");
 sound = document.getElementById('sfx');
 sound.play();
+=======
+		$('.start').click(function() {
+		playerVar= document.getElementById("playerName").value;
+		localStorage.setItem("player", playerVar);
+		removeElement("beginning");
+		addElement("bulk", "span", "text", new paragraph(0).text);
+		$(".text").lettering();
+		animationText();
+		console.log(localStorage.getItem("player"))
+		});
+
+		$('.button').click(function() {
+		animation();
+>>>>>>> 1f96145ab8bf4760ff3499902b1b52f57765c22a
 /*player = document.getElementById("playerName").value;*/
 });
 
 function animation() {
 	var title1 = new TimelineMax();
-	title1.to(".button", 0, {visibility: 'hidden', opacity: 0});
+	title1.to(".start", 0, {visibility: 'hidden', opacity: 0});
 	title1.staggerFromTo(".title span", 0.5, 
 	{ease: Back.easeOut.config(1.7), opacity: 0, bottom: -80},
 	{ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.05);
-	title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1});
+	title1.to(".start", 0.2, {visibility: 'visible' ,opacity: 1});
+	title1.staggerFromTo(".text span", 0.5, 
+	{ease: Back.easeOut.config(1.7), opacity: 0, bottom: -80},
+	{ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.05);
 }
-//# sourceURL=pen.js
+
+function animationText() {
+	var body = new TimelineMax();
+	body.staggerFromTo(".text span", 0.5, 
+	{ease: Back.easeOut.config(1.7), opacity: 0, bottom: -80},
+	{ease: Back.easeOut.config(1.7), opacity: 1, bottom: 0}, 0.05);
+	console.log("hello");
+}

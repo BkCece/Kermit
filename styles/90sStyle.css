@@ -2,10 +2,12 @@
 html {
 	height: 100%;
 }
+
 body {
 	font-family: 'Fjalla One', sans-serif;
 	background: linear-gradient(to bottom, #F6BF5D 0%, #FFF2A7 100%);
 }
+
 .container {
 	transform: translate(-50%, -50%);
 	top: 50%;
@@ -14,7 +16,17 @@ body {
 	position: absolute;
 	max-width: 260px;
 }
-.button {
+
+.bodytext {
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	display: block;
+	position: absolute;
+	max-width: 460px;
+}
+
+.start {
 	position: relative;
 	transform: translateX(-50%) rotate(-10deg);
 	color: #53A5E9;
@@ -27,6 +39,7 @@ body {
 	text-shadow: 1px 1px #533d4a;
 	font-size: 25px;
 }
+
 h1 {
 	color: #fff;
 	text-transform: uppercase;
@@ -35,6 +48,7 @@ h1 {
 	line-height: 47px;
 	letter-spacing: 2px;
 }
+
 .title {
 	transform: translateX(-50%) rotate(-10deg);
 	display: block;
@@ -55,6 +69,47 @@ h1 {
 .title:nth-child(3) {
 	color: #EE5968;
 }
+
+h2 {
+	color: #fff;
+	text-transform: lowercase;
+	font-size: 30px;
+	margin: 0;
+	line-height: 47px;
+	letter-spacing: 2px;
+}
+
+div {
+	color: #fff;
+	text-transform: lowercase;
+	font-size: 30px;
+	margin: 0;
+	line-height: 47px;
+	letter-spacing: 2px;
+}
+
+.text {
+	transform: translateX(-50%);
+	display: block;
+	float: left;
+	position: relative;
+	transform: skew(-10deg);
+	display: block;
+	float: left;
+	/*text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;*/
+	text-shadow: 3px 3px #533d4a;
+}
+
+.text:nth-child(1) {
+	color: #92DFB6;
+}
+.text:nth-child(2) {
+	color: #ED97CC;
+}
+.text:nth-child(3) {
+	color: #EE5968;
+}
+
 .playerName {
   position: relative;
   margin: auto;

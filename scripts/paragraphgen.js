@@ -6,8 +6,6 @@ function paragraph(option) {
     this.text = paragraphs[option].text;
     this.numOfNouns = paragraphs[option].nouns;
     this.numOfVerbs = paragraphs[option].verbs;
-    console.log(this.numOfVerbs)
-    console.log(this.numOfNouns)
     this.replaceNouns(nouns)
     this.replaceVerbs(verbs)
 }
