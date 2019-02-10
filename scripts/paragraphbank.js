@@ -86,7 +86,7 @@ var paragraphs = [
     },
     {
     	// 9
-    	"text": `You take sword and gently slash a mouth, or maybe not cause it already has one. What is it this time? A @? No matter. It moves into a # ruined house and % it. I walked, here it goes insane. It exclaims, [Name], prepare to witness what I can do. It rises up as it % and %. The # @ comes up, then a @ as it % and % over and under. I slowly walk out the broken structure, that neighbor’s whatever is a shapeshifter too, its a @ now. Maaan I think i need to go back to the tree.`,
+    	"text": `You take sword and gently slash a mouth, or maybe not cause it already has one. What is it this time? A @? No matter. It moves into a # ruined house and % it. I walked, here it goes insane. It exclaims, you, prepare to witness what I can do. It rises up as it % and %. The # @ comes up, then a @ as it % and % over and under. I slowly walk out the broken structure, that neighbor’s whatever is a shapeshifter too, its a @ now. Maaan I think i need to go back to the tree.`,
     	"left": ` `,
     	"right": ` `,
     	"nouns": 4,
