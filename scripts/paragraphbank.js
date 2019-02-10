@@ -26,7 +26,7 @@ var paragraphs = [
     	"left": `Just, do it.`,
     	"right": `Just, NOT do it.`,
     	"nouns": 2,
-    	"verbs": 0,
+    	"verbs": 1,
     	"adjes": 1
     },
     {
@@ -51,92 +51,91 @@ var paragraphs = [
     {
     	// 5
     	"text": 'You choose to do it. A # @ sees you doing it. The reputation you have built up over years is about to crumble. It shakes its head in shame, you can see it mutter the words "# weirdo". Strength fills your # heart with @. ',
-    	"left": 'Eliminate it',
-    	"right": 'Run and Hide for life',
+    	"left": `Eliminate it`,
+    	"right": `Run and Hide for life`,
     	"nouns": 2,
     	"verbs": 0,
     	"adjes": 3
-    }
- /*   {
+    },
+    {
     	// 6
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
+    	"text": `the nearby @ appreciates your respectfulness, because of that it picks you up and %s you to a pretty @. It sways your heart.`,
+    	"left": `Follow it`,
+    	"right": `Ignore it`,
+    	"nouns": 2,
+    	"verbs": 1,
+    	"adjes": 0
     },
     {
     	// 7
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
+    	"text": `You aim as best as you can. You take aim steady, and launch your sword as it spins towards it! Your sword has left your eye as you keep it on the # shapeshifting @. You hear a clang of the sword yet it did not hit your target! You look over to see that your sword hit a surprisingly hard @. Well, where did your # sword go? It flies in the air as the hilt hit your head! Thus, on the ground, lying asleep yet again`,
+    	"left": ` `,
+    	"right": ` `,
+    	"nouns": 2,
+    	"verbs": 2,
+    	"adjes": 0
     },
     {
     	// 8
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
+    	"text": `You realize you are a pacifist and don’t actually part with your blade. Why would you have a blade to begin with anyway? You stop chasing, plant your throne on the ground and walk home. You ask a talking @ that was conveniently next to you when you stopped. You carry on your merry way as you % and % anything you find on your way.`,
+    	"left": ` `,
+    	"right": ` `,
+    	"nouns": 1,
+    	"verbs": 2,
+    	"adjes": 0
     },
     {
     	// 9
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
+    	"text": `You take sword and gently slash a mouth, or maybe not cause it already has one. What is it this time? A @? No matter. It moves into a # ruined house and % it. I walked, here it goes insane. It exclaims, [Name], prepare to witness what I can do. It rises up as it % and %. The # @ comes up, then a @ as it % and % over and under. I slowly walk out the broken structure, that neighbor’s whatever is a shapeshifter too, its a @ now. Maaan I think i need to go back to the tree.`,
+    	"left": ` `,
+    	"right": ` `,
+    	"nouns": 4,
+    	"verbs": 5,
+    	"adjes": 2
     },
     {
     	// 10
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
+    	"text": `You follow it again, and realize its not worth your time. What is it now? A @? You dont care, Its time to put down the controller <name>, and stop playing. Wake up, this is a video game, you’ve been putting off real life. You have to let it go, the @ happened 10 years ago. We were drinking that night, it's not your fault.`,
+    	"left": ` `,
+    	"right": ` `,
+    	"nouns": 2,
+    	"verbs": 0,
+    	"adjes": 0
     },
     {
     	// 11
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
+    	"text": `Your blade % it. Successfully removing all evidences… or so you think. Around you, you see dozens @. Every single one of them looks at you with disgust, you run and hide into the forest in shame.`,
+    	"left": ` `,
+    	"right": ` `,
+    	"nouns": 1,
+    	"verbs": 1,
+    	"adjes": 0
     },
     {
     	// 12
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
+    	"text": `With your tail behind your leg, you run away into the forest. The blade in your hand speaks but its muffled by your heavy breathing. Tears form in your eye from the embarrassment, blocking your vision. Unknowingly you jump of a cliff into the sea. Sadly, your blade tried to tell you of said cliff.`,
+    	"left": ` `,
+    	"right": ` `,
+    	"nouns": 0,
+    	"verbs": 0,
+    	"adjes": 0
     },
     {
     	// 13
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
+    	"text": `You follow the beautiful thing. You say “ You are so # and #, nothing can best you”. Swayed by your words. You live happily ever after.`,
+    	"left": ` `,
+    	"right": ` `,
+    	"nouns": 0,
+    	"verbs": 0,
+    	"adjes": 2
     },
     {
     	// 14
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
+    	"text": ` A witch appear in a # boom. “HA you are the most #, #  person I ever met. Now you are curse with forever loneliness” The witch disappears, depression settles in.you feel like a big pile of # @. Even your swords gets up and leaves you. With no feeling to adventure, you go back home.`,
+    	"left": ` `,
+    	"right": ` `,
+    	"nouns": 1,
+    	"verbs": 0,
+    	"adjes": 4
     }
-    */
-];
+]
