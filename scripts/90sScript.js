@@ -11,6 +11,10 @@ $(document).ready(function() {
 }, 1000);
 
 $('.start').click(function() {
+	 $('body').css('background-image','url(../Kermit/resources/images/calm_tree.gif)');
+	 $('body').css('background-repeat', 'no-repeat');
+	 $('body').css('background-size', '100%');
+	
 	sfx.currentTime = 0;
 	sfx.play();
 	playerVar= document.getElementById("playerName").value;
@@ -33,12 +37,12 @@ $("#lefts").on("click", ".left", function(){
 	$(".left").remove();
 	$(".right").remove();
 	paragraphindex = paragraphindex + 1;
-	var para = new paragraph(paragraphindex)
+	var para = new paragraph(paragraphindex);
 	addElement("bulk", "span", "text", para.text);
 	addElement("lefts", "div", "left", para.left);
 	addElement("rights", "div", "right", para.right);
-	console.log("left")
-	console.log(paragraphindex)
+	console.log("left");
+	console.log(paragraphindex);
 });
 
 $("#rights").on("click", ".right", function(){
@@ -46,12 +50,12 @@ $("#rights").on("click", ".right", function(){
 	$(".left").remove();
 	$(".right").remove();
 	paragraphindex = paragraphindex + 2;
-	var para = new paragraph(paragraphindex)
+	var para = new paragraph(paragraphindex);
 	addElement("bulk", "span", "text", para.text);
 	addElement("lefts", "div", "left", para.left);
 	addElement("rights", "div", "right", para.right);
-	console.log("right")
-	console.log(paragraphindex)
+	console.log("right");
+	console.log(paragraphindex);
 });
 
 function animation() {
