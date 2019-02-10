@@ -1,4 +1,3 @@
-
 var playerVar;
 
 $(document).ready(function() {
@@ -12,6 +11,8 @@ $(document).ready(function() {
 }, 1000);
 
 $('.button').click(function() {
+
+	$('.button').click(function() {
 	animation();
 	console.log("click");
 	sound = document.getElementById('sfx');
@@ -28,6 +29,18 @@ $('.start').click(function() {
 	console.log(localStorage.getItem("player"));
 });
 		
+	});
+	
+$('.start').click(function() {
+	playerVar= document.getElementById("playerName").value;
+	localStorage.setItem("player", playerVar);
+	removeElement("beginning");
+	addElement("bulk", "span", "text", new paragraph(0).text);
+
+$(".text").lettering();
+	animationText();
+	console.log(localStorage.getItem("player"));
+});
 /*player = document.getElementById("playerName").value;*/
 
 function animation() {
