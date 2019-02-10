@@ -18,8 +18,10 @@ $(document).ready(function() {
 	sound = document.getElementById('sfx');
 	sound.play();
 	});
-	
+
 		$('.start').click(function() {
+		sfx.currentTime = 0;
+		sfx.play();
 		playerVar= document.getElementById("playerName").value;
 		localStorage.setItem("player", playerVar);
 		removeElement("beginning");
@@ -27,7 +29,6 @@ $(document).ready(function() {
 		$(".text").lettering();
 		animationText();
 		console.log(localStorage.getItem("player"));
-
 		});
 /*player = document.getElementById("playerName").value;*/
 

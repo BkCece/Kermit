@@ -1,4 +1,4 @@
-var totalNouns = 2;
+var totalNouns = 9;
 var nouns = [
     {
         "noun": "dogs"
