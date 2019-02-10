@@ -13,7 +13,7 @@ var paragraphs = [
     },
     {
     	// 1
-    	"text": `You realize that @ stole your attractive neighbor's @. You think of that attractive neighbor, but you also remember that you are lost! You unsheathe your blade but hesitate because you may have the ability to talk to the @ and might also gather information on where the heck you are. But your heart beats with justice! You can't give them the chance! What do you do?`,
+    	"text": `You realize that @ stole your attractive neighbor's @. You think of that attractive neighbor, but you also remember that you are lost! You unsheathe your blade but hesitate because you may have the ability to talk to @ (?) and might also gather information on where the heck you are. But your heart beats with justice! You can't give them the chance! What do you do?`,
     	"left": `Unsheathe thy blade!`,
     	"right": `I want to know more.`,
     	"nouns": 3,
@@ -31,24 +31,24 @@ var paragraphs = [
     },
     {
     	// 3
-    	"text": `You clench your behind, grab your blade, and leap towards the... @? Gah! That beast! It shapeshifted! Or did it not? No matter! Good thing you were on the track team in high school! Your boots dig deeper into the dirt as you're ready to spring into action. Each step springs and propels you forward as the dust gets left behind your trail. You totally have super cool sword throwing skills, your @ told you that you were very good at it! Do you throw the sword?`,
+    	"text": `You clench your behind, grab your blade, and leap towards the... @? Gah! That beast! It shape-shifted! Or did it not? No matter! Good thing you were on the track team in high school! Your boots dig deeper into the dirt as you're ready to spring into action. Each step springs and propels you forward as the dust gets left behind your trail. You totally have super cool sword throwing skills, your @ told you that you were very good at it! Do you throw the sword?`,
     	"left": `Throw`,
     	"right": `Don't throw`,
     	"nouns": 2,
     	"verbs": 0,
     	"adjes": 0
-    }
-/*
+    },
+
     {
     	// 4
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
-    },
-    {
+    	"text": `As you approach the @ ...wait what? Blasted thing, it Shape-shifts! How do I approach it now? I can't just # on over and start a conversation...but I'll do so anyway. "Hello, kind Shapesh... I mean @'. It cannot reply for it does not speak English, or perhaps in its current form, it does not have a mouth. It keeps walking. Perhaps I can make it a mouth...perhaps I should keep following it.`,
+    	"left": `Make a mouth`,
+    	"right": `Follow it`,
+    	"nouns": 2,
+    	"verbs": 0,
+    	"adjes": 1
+    }
+ /*   {
     	// 5
     	"text":
     	"left":
