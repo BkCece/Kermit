@@ -104,7 +104,7 @@ var paragraphs = [
     },
     {
     	// 11
-    	"text": `Your blade % it. Successfully removing all evidences… or so you think. Around you, you see dozens @. Every single one of them looks at you with disgust, you run and hide into the forest in shame.`,
+    	"text": `Your blade % it. Successfully removing all evidences... or so you think. Around you, you see dozens @. Every single one of them looks at you with disgust, you run and hide into the forest in shame.`,
     	"left": ` `,
     	"right": ` `,
     	"nouns": 1,
@@ -122,7 +122,7 @@ var paragraphs = [
     },
     {
     	// 13
-    	"text": `You follow the beautiful thing. You say “ You are so # and #, nothing can best you”. Swayed by your words. You live happily ever after.`,
+    	"text": `You follow the beautiful thing. You say "You are so # and #, nothing can best you". Swayed by your words. You live happily ever after.`,
     	"left": ` `,
     	"right": ` `,
     	"nouns": 0,
@@ -131,7 +131,7 @@ var paragraphs = [
     },
     {
     	// 14
-    	"text": ` A witch appear in a # boom. “HA you are the most #, #  person I ever met. Now you are curse with forever loneliness” The witch disappears, depression settles in.you feel like a big pile of # @. Even your swords gets up and leaves you. With no feeling to adventure, you go back home.`,
+    	"text": ` A witch appear in a # boom. "HA you are the most #, #  person I ever met. Now you are curse with forever loneliness" The witch disappears, depression settles in.you feel like a big pile of # @. Even your swords gets up and leaves you. With no feeling to adventure, you go back home.`,
     	"left": ` `,
     	"right": ` `,
     	"nouns": 1,
