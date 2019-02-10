@@ -1,4 +1,3 @@
-var totalVerbs = 12;
 var verbs = [
     {
         "verb": "kick"
@@ -37,3 +36,4 @@ var verbs = [
         "verb": "thank"
     }
 ]
+var totalVerbs = verbs.length();

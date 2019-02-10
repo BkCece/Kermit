@@ -5,7 +5,7 @@ var paragraphs = [
     {
     	// 0
         "text": `You wake up from a nap under a tree.They sky is clear, some cloud with a black cloud afar, but where you are, it is clear. As you scan your perimeter before you gather your things.  As you get up and % the tree, you see a @ walk over, Do you follow it?`,
-        "left": `Let's go!`,
+        "left": `Let\'s go!`,
         "right" : `Nah.`,
         "nouns": 1,
         "verbs": 1,
@@ -33,11 +33,12 @@ var paragraphs = [
     	// 3
     	"text": `You clench your behind, grab your blade, and leap towards the... @? Gah! That beast! It shapeshifted! Or did it not? No matter! Good thing you were the track team in high school! Your boots digs deeper into the dirt as you’re ready to spring into action. Each step springs and propels you forward as the dust gets left behind your trail. You totally have  super cool sword throwing skills, your @ told you you were very good at! Do you throw the sword?`,
     	"left": `Throw`,
-    	"right": `Don't throw`,
+    	"right": `Don\'t throw`,
     	"nouns": 2,
     	"verbs": 0,
     	"adjes": 0
-    },
+    }
+/*
     {
     	// 4
     	"text":
@@ -137,4 +138,5 @@ var paragraphs = [
     	"verbs":
     	"adjes":
     }
+    */
 ]

@@ -1,4 +1,3 @@
-var totalNouns = 9;
 var nouns = [
     {
         "noun": "dogs"
@@ -28,3 +27,4 @@ var nouns = [
     	"noun": "webs"
     }
 ]
+var totalNouns = nouns.length();

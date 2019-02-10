@@ -1,4 +1,3 @@
-var totalAdjes = 12;
 var adjes = [
     {
         "adjes": "peaceful"
@@ -37,3 +36,4 @@ var adjes = [
         "adjes": "irate"
     }
 ]
+var totalAdjes = adjes.length();
