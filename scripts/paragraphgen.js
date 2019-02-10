@@ -35,7 +35,7 @@ paragraph.prototype.replaceAdjes = function(adjebank) {
     console.log("hi")
     for (let i = 0; i < this.numOfAdjes; i++) {
         var num = getRandomInt(totalAdjes)
-        var adje = verbbank[num].adje
+        var adje = adjebank[num].adje
         this.text= this.text.replace(`#`, `${adje}`)
     }
 }

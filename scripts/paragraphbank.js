@@ -4,7 +4,7 @@
 var paragraphs = [
     {
     	// 0
-        "text": `You wake up from a nap under a tree.They sky is clear, some cloud with a black cloud afar, but where you are, it is clear. As you scan your perimeter before you gather your things.  As you get up and % the tree, you see a @ walk over, Do you follow it?`,
+        "text": `You wake up from a nap under a tree. The sk’y is clear, some cloud with a black cloud afar, but where you are, it is clear. As you scan your perimeter before you gather your things.  As you get up and % the tree, you see a @ walk over, Do you follow it?`,
         "left": `Let\'s go!`,
         "right" : `Nah.`,
         "nouns": 1,
