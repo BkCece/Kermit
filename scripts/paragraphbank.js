@@ -23,8 +23,8 @@ var paragraphs = [
     {
     	// 2
     	"text": `You stand up and move along your merry way. You take in the scenery as # @ During your travels, a large @ blocks your path, do you <verb> it?`,
-    	"left": `Just, do it.`
-    	"right": `Just, NOT do it.`
+    	"left": `Just, do it.`,
+    	"right": `Just, NOT do it.`,
     	"nouns": 2,
     	"verbs": 0,
     	"adjes": 1
@@ -37,7 +37,9 @@ var paragraphs = [
     	"nouns": 2,
     	"verbs": 0,
     	"adjes": 0
-    },
+    }
+
+    /*
     {
     	// 4
     	"text":
@@ -136,5 +138,5 @@ var paragraphs = [
     	"nouns":
     	"verbs":
     	"adjes":
-    }
+    }*/
 ]
