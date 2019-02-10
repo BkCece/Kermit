@@ -27,4 +27,4 @@ var nouns = [
     	"noun": "webs"
     }
 ]
-var totalNouns = nouns.length();
+var totalNouns = nouns.length;

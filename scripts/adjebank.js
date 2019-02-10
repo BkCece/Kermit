@@ -36,4 +36,4 @@ var adjes = [
         "adjes": "irate"
     }
 ]
-var totalAdjes = adjes.length();
+var totalAdjes = adjes.length;

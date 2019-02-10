@@ -36,4 +36,4 @@ var verbs = [
         "verb": "thank"
     }
 ]
-var totalVerbs = verbs.length();
+var totalVerbs = verbs.length;
