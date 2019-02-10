@@ -11,14 +11,6 @@ $(document).ready(function() {
 		animation();
 		}, 1000);
 
-
-	$('.button').click(function() {
-	animation();
-	console.log("click");
-	sound = document.getElementById('sfx');
-	sound.play();
-	});
-
 		$('.start').click(function() {
 		sfx.currentTime = 0;
 		sfx.play();
