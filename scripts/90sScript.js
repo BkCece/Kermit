@@ -33,6 +33,9 @@ $('.start').click(function() {
 });
 
 $("#lefts").on("click", ".left", function(){
+	if (paragraphindex == 7 || paragraphindex == 8 || paragraphindex == 9 || paragraphindex == 10){
+		$('body').css('background-image','url(../Kermit/resources/images/the_end.gif)');
+	}
 	sfx.currentTime = 0;
 	sfx.play();
 	$(".text").remove();

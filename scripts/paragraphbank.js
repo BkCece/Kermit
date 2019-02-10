@@ -139,4 +139,4 @@ var paragraphs = [
     	"adjes":
     }
     */
-]
+];

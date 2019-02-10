@@ -599,5 +599,5 @@ var nouns = [
 {
 "noun":  "tooth"
 }
-]
+];
 var totalNouns = nouns.length;

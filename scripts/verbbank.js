@@ -599,5 +599,5 @@ var verbs = [
 {
 "verb":  "spare"
 }
-]
+];
 var totalVerbs = verbs.length;
