@@ -1,30 +1,30 @@
 var nouns = [
     {
-        "noun": "dogs"
+        "noun": "dog"
     },
     {
-        "noun": "cats"
+        "noun": "cat"
     },
     {
-    	"noun": "essays"
+    	"noun": "essay"
     },
     {
     	"noun": "hurdler"
     },
     {
-    	"noun": "motorboats"
+    	"noun": "motorboat"
     },
     {
-    	"noun": "pigs"
+    	"noun": "pig"
     },
     {
-    	"noun": "porcupines"
+    	"noun": "porcupine"
     },
     {
-    	"noun": "visions"
+    	"noun": "vision"
     },
     {
-    	"noun": "webs"
-    }
+    	"noun": "web"
+    },
 ]
 var totalNouns = nouns.length;
