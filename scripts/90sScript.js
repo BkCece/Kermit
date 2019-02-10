@@ -36,7 +36,7 @@ $("#lefts").on("click", ".left", function(){
 	$(".text").remove();
 	$(".left").remove();
 	$(".right").remove();
-	paragraphindex = paragraphindex + 1;
+	paragraphindex = 2*paragraphindex + 1;
 	var para = new paragraph(paragraphindex);
 	addElement("bulk", "span", "text", para.text);
 	addElement("lefts", "div", "left", para.left);
@@ -49,7 +49,7 @@ $("#rights").on("click", ".right", function(){
 	$(".text").remove();
 	$(".left").remove();
 	$(".right").remove();
-	paragraphindex = paragraphindex + 2;
+	paragraphindex = 2*paragraphindex + 2;
 	var para = new paragraph(paragraphindex);
 	addElement("bulk", "span", "text", para.text);
 	addElement("lefts", "div", "left", para.left);
