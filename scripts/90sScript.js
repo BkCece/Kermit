@@ -44,6 +44,10 @@ $("#lefts").on("click", ".left", function(){
 	addElement("lefts", "div", "left", para.left);
 	addElement("rights", "div", "right", para.right);
 	console.log("left");
+	$(".text").lettering();
+	$(".left").lettering();
+	$(".right").lettering();
+	animationText();
 	console.log(paragraphindex);
 });
 
@@ -60,6 +64,10 @@ $("#rights").on("click", ".right", function(){
 	addElement("rights", "div", "right", para.right);
 	console.log("right");
 	console.log(paragraphindex);
+	$(".text").lettering();
+	$(".left").lettering();
+	$(".right").lettering();
+	animationText();
 });
 
 function animation() {
