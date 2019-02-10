@@ -40,6 +40,34 @@ body {
 	font-size: 25px;
 }
 
+.left {
+	position: relative;
+	transform: translateX(-50%) rotate(-10deg);
+	color: #53A5E9;
+	text-transform: uppercase;
+	cursor: pointer;
+	transform: skew(-10deg);
+	display: block;
+	float: left;
+	/*text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;*/
+	text-shadow: 1px 1px #533d4a;
+	font-size: 25px;
+}
+
+.right {
+	position: relative;
+	transform: translateX(-50%) rotate(-10deg);
+	color: #53A5E9;
+	text-transform: uppercase;
+	cursor: pointer;
+	transform: skew(-10deg);
+	display: block;
+	float: right;
+	/*text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;*/
+	text-shadow: 1px 1px #533d4a;
+	font-size: 25px;
+}
+
 h1 {
 	color: #fff;
 	text-transform: uppercase;
