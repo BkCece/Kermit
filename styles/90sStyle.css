@@ -6,6 +6,10 @@ html {
 body {
 	font-family: 'Fjalla One', sans-serif;
 	background: linear-gradient(to bottom, #F6BF5D 0%, #FFF2A7 100%);
+	
+	background-image: url("../resources/images/calm_tree.gif");
+	background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .container {

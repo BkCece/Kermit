@@ -1,4 +1,3 @@
-
 var playerVar;
 var paragraphindex =0;
 $(document).ready(function() {
@@ -17,7 +16,7 @@ $('.start').click(function() {
 	playerVar= document.getElementById("playerName").value;
 	localStorage.setItem("player", playerVar);
 
-	var para =new paragraph(paragraphindex)
+	var para =new paragraph(paragraphindex);
 
 	removeElement("beginning");
 	addElement("bulk", "span", "text", para.text);
@@ -54,7 +53,6 @@ $("#rights").on("click", ".right", function(){
 	console.log("right")
 	console.log(paragraphindex)
 });
-
 
 function animation() {
 	var title1 = new TimelineMax();
