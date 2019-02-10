@@ -138,5 +138,4 @@ var paragraphs = [
     	"verbs": 0,
     	"adjes": 4
     }
-    
 ]

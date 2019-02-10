@@ -599,5 +599,5 @@ var adjes = [
 {
 "adje":  "combative"
 }
-]
+];
 var totalAdjes = adjes.length;
