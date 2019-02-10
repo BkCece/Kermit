@@ -33,6 +33,8 @@ $('.start').click(function() {
 });
 
 $("#lefts").on("click", ".left", function(){
+	sfx.currentTime = 0;
+	sfx.play();
 	$(".text").remove();
 	$(".left").remove();
 	$(".right").remove();
@@ -46,6 +48,8 @@ $("#lefts").on("click", ".left", function(){
 });
 
 $("#rights").on("click", ".right", function(){
+	sfx.currentTime = 0;
+	sfx.play();
 	$(".text").remove();
 	$(".left").remove();
 	$(".right").remove();

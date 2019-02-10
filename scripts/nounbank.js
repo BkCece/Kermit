@@ -1,30 +1,63 @@
 var nouns = [
     {
-        "noun": "dogs"
+        "noun": "dog"
     },
     {
-        "noun": "cats"
+        "noun": "cat"
     },
     {
-    	"noun": "essays"
+    	"noun": "essay"
     },
     {
     	"noun": "hurdler"
     },
     {
-    	"noun": "motorboats"
+    	"noun": "motorboat"
     },
     {
-    	"noun": "pigs"
+    	"noun": "pig"
     },
     {
-    	"noun": "porcupines"
+    	"noun": "porcupine"
     },
     {
-    	"noun": "visions"
+    	"noun": "vision"
     },
     {
-    	"noun": "webs"
+    	"noun": "web"
+    },
+    {
+    	"noun": "steel"
+    },
+    {
+    	"noun": "stone"
+    },
+    {
+    	"noun": "knowledge"
+    },
+    {
+    	"noun": "square"
+    },
+    {
+    	"noun": "floor"
+    },
+    {
+    	"noun": "creator"
+    },
+    {
+    	"noun": "maid"
+    },
+    {
+    	"noun": "skate"
+    },
+    {
+    	"noun": "crowd"
+    },
+    {
+    	"noun": "health"
+    },
+    {
+    	"noun": "base"
     }
 ]
 var totalNouns = nouns.length;
