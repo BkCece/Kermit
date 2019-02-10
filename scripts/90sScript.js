@@ -1,5 +1,5 @@
 var playerVar;
-var paragraphindex =0;
+var paragraphindex = 0;
 $(document).ready(function() {
 	$(".title").lettering();
 	$(".text").lettering();
@@ -33,9 +33,6 @@ $('.start').click(function() {
 });
 
 $("#lefts").on("click", ".left", function(){
-	if (paragraphindex == 7 || paragraphindex == 8 || paragraphindex == 9 || paragraphindex == 10){
-		$('body').css('background-image','url(../Kermit/resources/images/the_end.gif)');
-	}
 	sfx.currentTime = 0;
 	sfx.play();
 	$(".text").remove();
@@ -52,6 +49,16 @@ $("#lefts").on("click", ".left", function(){
 	$(".right").lettering();
 	animationText();
 	console.log(paragraphindex);
+	
+	if (paragraphindex == 7){
+		$('body').css('background-image','url(../Kermit/resources/images/end_07.gif)');
+	}else if(paragraphindex == 8 ){
+		$('body').css('background-image','url(../Kermit/resources/images/end_08.gif)');
+	}else if(paragraphindex == 9){
+		$('body').css('background-image','url(../Kermit/resources/images/end_09.gif)');
+	}else if(paragraphindex == 10){
+		$('body').css('background-image','url(../Kermit/resources/images/end_10.gif)');
+	}
 });
 
 $("#rights").on("click", ".right", function(){
@@ -71,6 +78,16 @@ $("#rights").on("click", ".right", function(){
 	$(".left").lettering();
 	$(".right").lettering();
 	animationText();
+	
+	if (paragraphindex == 11){
+		$('body').css('background-image','url(../Kermit/resources/images/end_10.gif)');
+	}else if(paragraphindex == 12){
+		$('body').css('background-image','url(../Kermit/resources/images/end_12.gif)');
+	}else if(paragraphindex == 13){
+		$('body').css('background-image','url(../Kermit/resources/images/end_07.gif)');
+	}else if(paragraphindex == 14){
+		$('body').css('background-image','url(../Kermit/resources/images/end_12.gif)');
+	}
 });
 
 function animation() {

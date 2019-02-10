@@ -73,7 +73,7 @@ var paragraphs = [
     	"right": ` `,
     	"nouns": 2,
     	"verbs": 2,
-    	"adjes": 0
+    	"adjes": 2
     },
     {
     	// 8
