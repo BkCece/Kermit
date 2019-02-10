@@ -22,6 +22,7 @@
 		<script type="text/javascript">
 			let music = document.getElementById("music");
 			music.src = 'resources/audio/calm_intro.wav';
+			music.type = 'audio/wav';
 			music.loop = true;
 			music.currentTime = 0;
 			music.play();
@@ -58,7 +59,8 @@
 
         <h2 id="bulk">
 		</h2>
-		
+		<div id="lefts"></div>
+		<div id="rights"></div>
     </section>
 
     <script src="scripts/funcs.js"></script>

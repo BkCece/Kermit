@@ -6,6 +6,8 @@ function paragraph(option) {
     this.text = paragraphs[option].text;
     this.numOfNouns = paragraphs[option].nouns;
     this.numOfVerbs = paragraphs[option].verbs;
+    this.left = paragraphs[option].left;
+    this.right = paragraphs[option].right;
     this.replaceNouns(nouns)
     this.replaceVerbs(verbs)
 }
