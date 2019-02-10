@@ -13,7 +13,7 @@ var paragraphs = [
     },
     {
     	// 1
-    	"text": `You realized that that @ stole that attractive neighbor’s @. You think of that attractive neighbor, but also you remember that you are lost! You unsheath your blade, but hesitate because you may have the ability to talk to the @ and my also gather information on where the heck you are. But your heart beats with justice! You can’t give them the chance! What do you do?`,
+    	"text": `You realized that that @ stole that attractive neighbor\'s @. You think of that attractive neighbor, but also you remember that you are lost! You unsheath your blade, but hesitate because you may have the ability to talk to the @ and my also gather information on where the heck you are. But your heart beats with justice! You can’t give them the chance! What do you do?`,
     	"left": `Unsheath thy blade!`,
     	"right": `I want to know more.`,
     	"nouns": 3,
