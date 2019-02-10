@@ -47,17 +47,17 @@ var paragraphs = [
     	"nouns": 2,
     	"verbs": 0,
     	"adjes": 1
-    }
- /*   {
-    	// 5
-    	"text":
-    	"left":
-    	"right":
-    	"nouns":
-    	"verbs":
-    	"adjes":
     },
     {
+    	// 5
+    	"text": 'You choose to do it. A # @ sees you doing it. The reputation you have built up over years is about to crumble. It shakes its head in shame, you can see it mutter the words "# weirdo". Strength fills your # heart with @. ',
+    	"left": 'Eliminate it',
+    	"right": 'Run and Hide for life',
+    	"nouns": 2,
+    	"verbs": 0,
+    	"adjes": 3
+    }
+ /*   {
     	// 6
     	"text":
     	"left":
