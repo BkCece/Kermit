@@ -12,6 +12,8 @@ $(document).ready(function() {
 }, 1000);
 
 $('.start').click(function() {
+	sfx.currentTime = 0;
+	sfx.play();
 	playerVar= document.getElementById("playerName").value;
 	localStorage.setItem("player", playerVar);
 

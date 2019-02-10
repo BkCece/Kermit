@@ -1,4 +1,4 @@
-var totalVerbs = 2;
+var totalVerbs = 12;
 var verbs = [
     {
         "verb": "kick"
