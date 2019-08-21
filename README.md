@@ -1,2 +1,2 @@
 # Kermit
-Systems Hacks 2019 HackThe90s
+12 hour Systems Hacks 2019 HackThe90s
